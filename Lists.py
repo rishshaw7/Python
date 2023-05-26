@@ -26,3 +26,7 @@ print(emp)
 mixed = [133,534,"Surya",3444,"Vijay",57.4]
 print(mixed)
 
+#Multidimensional Lists
+
+harpot = [1997,[1998,1999,2000,2003],2005,2007]
+print(harpot[1][3])
