@@ -67,4 +67,4 @@ print(numbers)
 num1 = [12,13,14,15,16]
 num1.remove(12)
 print(num1)
-print(*num1) # It removes Brackets and commas from the list
+print(*num1) # It removes Brackets and commas from the list 
