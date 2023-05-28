@@ -26,7 +26,45 @@ print(emp)
 mixed = [133,534,"Surya",3444,"Vijay",57.4]
 print(mixed)
 
-#Multidimensional Lists
+#Multidimensional Lists harpot=Harry Potter
 
 harpot = [1997,[1998,1999,2000,2003],2005,2007]
 print(harpot[1][3])
+
+print(harpot[-1]) #Accessing  list element using negative indexing
+
+print(len(harpot))
+
+#String to List
+
+Fruits = input("Enter 5 fruit names :")
+Fruits = Fruits.split()
+print(Fruits)
+print(type(Fruits))
+
+#Methods in list
+
+#1.Append
+List = []
+List.append(22) #Adding elements in list list type
+List.append(34)
+List.append(44)
+List.append(55)
+
+print(List)     
+
+for i in range(55,61):
+    List.append(i)
+    
+print(List)
+
+#2.Reverse
+#Number variable list is created at the top of  the code
+numbers.reverse()
+print(numbers)
+
+#3.Remove
+num1 = [12,13,14,15,16]
+num1.remove(12)
+print(num1)
+print(*num1) # It removes Brackets and commas from the list
