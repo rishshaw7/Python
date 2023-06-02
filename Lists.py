@@ -1,5 +1,5 @@
 #List of an integer type
-
+#Difference between list tuple and sets https://12ft.io/proxy?&q=https%3A%2F%2Ftowardsdatascience.com%2F15-examples-to-master-python-lists-vs-sets-vs-tuples-d4ffb291cf07
 numbers = [32,54,77,43,22]
 print(numbers) #It prints all elements in list
 print(numbers[2]) #It Print specific element
